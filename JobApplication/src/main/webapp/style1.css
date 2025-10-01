@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.oval-box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Responsive wrap */
+    gap: 20px; /* Space between boxes */
+    margin-top: 30px;
+}
+
+.oval-box {
+    position: relative;
+    width: 280px;
+    height: 180px;
+    background-color: #71816d;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.oval-box:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}

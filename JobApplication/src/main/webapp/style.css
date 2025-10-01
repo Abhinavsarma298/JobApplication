@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #1e96fc, #4aa0ff); /* Gradient for depth */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Highlight on hover */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle transparent white */
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* Soft shadow */
+}
+
+.cdClass {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cdClass:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
